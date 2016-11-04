@@ -95,9 +95,9 @@ h1 {
 }
 
 path.neighborhood {
-    fill: #dddddd;
-    stroke: #F0F8FF;
-    stroke-width: 3.5px;
+  fill: #dddddd;
+  stroke: #F0F8FF;
+  stroke-width: 3.5px;
 }
 
 .active {
@@ -106,10 +106,10 @@ path.neighborhood {
 }
 
 circle.symbol {
-    fill-opacity: 0.9;
-    fill: #000000;
-    stroke: #CCCCCC;
-    stroke-width: 0.5px;
+  fill-opacity: 0.9;
+  fill: #000000;
+  stroke: #CCCCCC;
+  stroke-width: 0.5px;
 }
 
 #buttons {
@@ -117,6 +117,13 @@ circle.symbol {
   width: 1600px;
   padding: 10px;
   font-size: 12px;
+}
+
+/* For screens larger than 1280 */
+@media only screen and (min-width: 1281px) {
+  #buttons {
+    margin-left: 14%;
+  }
 }
 
 .footer {
